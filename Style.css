@@ -172,3 +172,279 @@ span{
 
 
 
+/* ------------------middle section--------------- */
+
+.titleHabit h1{
+ font-size: 60px;
+}
+.titleHabit p{
+    font-size: 20px;
+    color: rgba(221, 221, 221, 0.415);
+   }
+
+
+   .gridText p{
+    color: rgba(165, 160, 160, 0.526);
+   }
+
+.titleHabit{
+    text-align: center;
+    color: white;
+}
+
+.gridFourSection{
+    width: 80%;
+    margin: 90px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.gridFourSection img{
+    border-radius: 50%;
+    border: 2px solid rgb(73, 71, 71);
+}
+
+
+
+.run{
+    height:371px;
+    width:  1260px;
+    display: flex;
+    background-color: #4b4b4b;
+    margin: 20px auto;
+    align-items: center;
+    padding: 20px;
+    border-radius: 17px;
+}
+.run h1{
+    font-size: 48px;
+    color: white;
+}
+.run p{
+    color: rgba(255, 255, 255, 0.343);
+}
+.run img{
+   max-width: 50%;
+    border-radius: 18px;
+    float: right;
+}
+
+.runText{
+    width: 50%;
+}
+
+
+
+.joinAgain{
+    margin-top: 20px;
+    border-radius: 14px;
+    background-color: #E6533C;
+    color: white;
+    padding: 10px 34px;
+    border: none;
+    font-size: 18px;
+}
+
+
+.price{
+    margin: 30px auto;
+    align-items: center;
+    width:  1560px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 14px;
+    background-color: #4b4b4b;
+    height: 290px;
+    width: 370px;
+    color: white;
+}
+
+.price img{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+
+.titleforshop{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+
+.calculator{
+    width: 40%;
+    text-align: center;
+}
+
+.mainCalculator{
+    display: flex;
+    background-color: #333;
+}
+
+.inputsection{
+    width: 40%;
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 14px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: #ddd;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+/* footer is here =---------*/
+.main{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d2c2c;
+    color: white;
+}
+
+.main span {
+    color: #E6533C;
+    font-size: 70px;
+}
+
+.main p{
+    color: #dddddd5d;
+}
+
+.main h2{
+    color: #dddddd5d;
+}
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    
+    body{
+        overflow-x: hidden;
+        align-items: center;
+    }
+    .heroSection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-around;
+        margin: 89px auto;
+    }
+    .price{
+        margin: 30px auto;
+        align-items: center;
+        width:  1560px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .heroSection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-around;
+        margin: 89px auto;
+    }
+
+    .run img{
+        max-width: 50%;
+         border-radius: 18px;
+         float: left;
+         margin-top: 90px;
+     }
+    .icon{
+        display:inline-block;
+    }
+  .navbar{
+    display: block;
+    padding:20px ;
+  }
+    .logo{
+    display: block;
+  }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .gridFourSection{
+        width: 80%;
+        margin: 90px auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        color: white;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+    .run{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: #4b4b4b;
+        align-items: center;
+        padding: 20px;
+        border-radius: 17px;
+    }
+    .main{
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        align-items: center;
+        padding: 20px;
+        background-color: #2d2c2c;
+        color: white;
+    }
+    
+}
